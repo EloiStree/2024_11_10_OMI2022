@@ -328,7 +328,7 @@ public class WindowMonitorsMono : MonoBehaviour
         {
 
             WindowMonitorsInformation.MonitorInformation m = m_nativeInfoGiven.m_nativeInformation[i];
-                if (m.m_display.StateFlags != 0)
+                //if (m.m_display.StateFlags != 0)
                 {
                     m_processInfo.m_monitorInformation.Add(new RawMonitorInformation());
                     m_processInfo.m_monitorInformation[i].m_deviceName = (m.m_display.DeviceName);
