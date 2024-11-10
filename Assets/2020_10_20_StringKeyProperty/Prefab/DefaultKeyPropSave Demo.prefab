@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1207381554344480330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207381554344480328}
+  - component: {fileID: 1207381554344480331}
+  m_Layer: 0
+  m_Name: DefaultKeyPropSave Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207381554344480328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207381554344480330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.939445, y: -1.057764, z: 0.5967064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207381554344480331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207381554344480330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6840131cce9c66448bff3c6c723bb3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_configNameId: DemoKeyProp
+  m_fileRelativePathDev: configuration/demo.keyproperty
+  m_defaultConfigIfFileDontExist: {fileID: 4900000, guid: c3cb0fb86fa9f974592a74fa51659a59,
+    type: 3}
+  autoImportAwake: 1
+  autoExportDestroy: 1
+  pushValueInStaticAccess: 1
+  m_application:
+    m_name: Demo Key Prop
+    m_booleanKeys: []
+    m_doubleKeys: []
+    m_ulongKeys: []
+    m_stringKeys: []
+  m_onImportDetected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1207381554344480331}
+        m_MethodName: DebugLogExport
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: StringKeyPropertyGroupEvent, be.eloistree.stringkeyproperty, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_onExportDetected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1207381554344480331}
+        m_MethodName: DebugLogExport
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: StringKeyPropertyGroupEvent, be.eloistree.stringkeyproperty, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

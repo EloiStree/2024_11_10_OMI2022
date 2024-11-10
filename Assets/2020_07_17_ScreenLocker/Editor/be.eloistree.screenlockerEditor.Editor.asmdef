@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.screenlockerEditor",          
+    "references": ["be.eloistree.screenlocker","be.eloistree.mousescreennativeinformation"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

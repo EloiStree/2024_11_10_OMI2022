@@ -1,0 +1,17 @@
+{
+    "name": "be.eloistree.midireaderwindowandroid",
+    "rootNamespace": "",
+    "references": [
+        "be.eloistree.generaltoolbox",
+        "be.eloistree.naudiowindowdll"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

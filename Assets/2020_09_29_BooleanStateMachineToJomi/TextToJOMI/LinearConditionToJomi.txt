@@ -1,0 +1,6 @@
+➤ ☗ |  ↓ ↑ ♦ §
+MouseN ➤ MouseE ➤ MouseS ➤ MouseO ♦ A↓ A↑ ♦  ☗StepExitTime 10000☗GlobalExitTime 4000
+
+#MouseN ➤ MouseO ➤ MouseS ➤ MouseE ♦ B↓ B↑ ♦ ☗StepExitTime 2000 ☗GlobalExitTime 3000
+#MouseN↓ ➤ MouseN↓ ➤ MouseN↓ ♦ Tab↓ Tab↑ ♦ ☗BreakTime 200 ☗StepExitTime 500 
+#MouseS↓ ➤ MouseS↓ ➤ MouseS↓ ♦ Tab↓ Tab↑ ♦ ☗BreakTime 200 ☗StepExitTime 500 

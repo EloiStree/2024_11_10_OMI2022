@@ -1,0 +1,9 @@
+➤ ☗ |  ↓ ↑ ♦
+ApplicationName ♦ BooleanName
+Apex♦ Apex Legends
+VisualStudio♦\s-\sMicrosoft\sVisual\sStudio
+Unity♦\s-\sUnity\s
+YouTube♦Or♦  \s-\sYouTube\s-\sGoogle\sChrome ♦ -\sYouTube.*-\sMicrosoft\sEdge
+Photoshop♦\.psd\s@
+Unity2017♦And♦ Unity ♦ 2017 
+

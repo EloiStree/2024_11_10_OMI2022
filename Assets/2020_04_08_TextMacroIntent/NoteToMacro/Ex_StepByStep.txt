@@ -1,0 +1,11 @@
+#Reload checkpoint
+## This macro reload the checkpoint in Doom eternal
+Stroke Escape
+Wait 100
+Stroke Down
+Wait 100
+Stroke Enter
+Wait 200
+Stroke Left
+Wait 100
+Stroke Enter

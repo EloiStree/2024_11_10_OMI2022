@@ -1,0 +1,7 @@
+☗name Set three window to they place
+☗callid boxes:defaultfivebotposition
+↑10 ↓100♦winutility:movetoscreenlocation:bot1:bot1default
+↑10 ↓100♦winutility:movetoscreenlocation:bot2:bot2default
+↑10 ↓100♦winutility:movetoscreenlocation:bot3:bot3default
+↑10 ↓100♦winutility:movetoscreenlocation:bot4:bot4default
+↑10 ↓100♦winutility:movetoscreenlocation:bot5:bot5default 

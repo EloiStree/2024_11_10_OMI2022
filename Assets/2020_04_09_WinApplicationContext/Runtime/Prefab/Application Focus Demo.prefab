@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5544972908860769968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5544972908860769998}
+  - component: {fileID: 5544972908860769999}
+  - component: {fileID: 5544972908860769997}
+  - component: {fileID: 5544972908860769996}
+  m_Layer: 0
+  m_Name: Application Focus Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5544972908860769998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5544972908860769968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 269.02084, y: 232.51337, z: -2.5848389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5544972908860769999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5544972908860769968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e8f40396766754e81c192015e4d740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_timeBetweenCheck: 0.5
+  m_onFocusChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5544972908860769997}
+        m_MethodName: Translate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_focusWindowName: QuarantineWorkspace - Demo - PC, Mac & Linux Standalone - Unity
+    2019.3.3f1 Personal* <DX11>
+  m_availableWindows:
+  - QuarantineWorkspace - Demo - PC, Mac & Linux Standalone - Unity 2019.3.3f1 Personal*
+    <DX11>
+  - 'DragonBall Z Abridged MOVIE: BROLY - TeamFourStar #TFSBroly - YouTube - Google
+    Chrome'
+  - QuarantineWorkspace - Microsoft Visual Studio
+  - test.psd @ 50% (RVB/8)
+  - Microsoft Store
+  - Microsoft Store
+  - Microsoft Edge
+  - Microsoft Edge
+  - Microsoft Edge
+  - "Param\uBDF2es"
+  - "Param\uBDF2es"
+  - 
+  - NVIDIA GeForce Overlay
+  - Razer Synapse
+--- !u!114 &5544972908860769997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5544972908860769968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405fd12721bf94e4b8119cad31311d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onFocusChange:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onFocusChangeWithDetails:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5544972908860769996}
+        m_MethodName: DisplayFocusSwitchInfo
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_registeredApplication:
+  - m_applicationId: Visual Studio
+    m_confirmingRegex:
+    - \s-\sMicrosoft\sVisual\sStudio
+  - m_applicationId: Unity
+    m_confirmingRegex:
+    - \s-\sUnity\s
+  - m_applicationId: YouTube
+    m_confirmingRegex:
+    - \s-\sYouTube\s-\sGoogle\sChrome
+    - -\sYouTube.*-\sMicrosoft\sEdge
+  - m_applicationId: Google Chrome
+    m_confirmingRegex:
+    - \s-\sGoogle\sChrome
+  - m_applicationId: Steam
+    m_confirmingRegex:
+    - Steam
+  - m_applicationId: Blender
+    m_confirmingRegex:
+    - Blender
+  - m_applicationId: Internet Explorer
+    m_confirmingRegex:
+    - \s-\sMicrosoft\sEdge
+  - m_applicationId: Photoshop
+    m_confirmingRegex:
+    - \.psd\s@
+--- !u!114 &5544972908860769996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5544972908860769968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93de02becf020134e8c80ee8c904d9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_currentFocusFiltered: 
+  m_currentFocus: 
+  m_previousFocusFiltered: 
+  m_previousFocus: 
+  m_tCurrentFocusFiltered: {fileID: 0}
+  m_tCurrentFocus: {fileID: 0}
+  m_tPreviousFocusFiltered: {fileID: 0}
+  m_tPreviousFocus: {fileID: 0}
+  m_history: 
+  m_tHistory: {fileID: 0}

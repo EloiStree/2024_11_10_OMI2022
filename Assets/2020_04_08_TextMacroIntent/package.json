@@ -1,0 +1,11 @@
+{                                                                                
+  "name": "be.eloistree.textmacrointent",                              
+  "displayName": "Text Macro Intent",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "description": "Create some interpreters for a patern of line to create easily a macro executer.",                         
+  "keywords": ["Script","Tool"],                       
+  "category": "Script",                   
+  "dependencies":{"be.eloistree.license":"0.0.1"}   
+  
+} 

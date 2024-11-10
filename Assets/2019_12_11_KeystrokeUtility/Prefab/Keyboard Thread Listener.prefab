@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1978435827108297377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978435827108297380}
+  - component: {fileID: 1978435827108297383}
+  - component: {fileID: 1978435827108297382}
+  - component: {fileID: 5407451956273578208}
+  m_Layer: 0
+  m_Name: Keyboard Thread Listener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1978435827108297380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978435827108297377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.33334, y: 397.09998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1978435827108297383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978435827108297377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9340b0b6a0cf32a47acfcc1b7d94b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_threadLink:
+    m_killWhenPossible: 0
+    m_timeBetweenCheck: 5
+    m_threadFrame: 0
+    m_deltaTime: 0
+    m_tickPerSecond: 0
+    m_threadPriority: 3
+  m_touchHistory:
+    m_activeElements: 
+  m_touchActive: 
+  m_winKey: 
+  m_debugTimeInSecond: 0.1
+  m_unityDeltaTime: 0
+  m_unityFps: 0
+--- !u!114 &1978435827108297382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978435827108297377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef0f81bafd991e42939917eacca02ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_keyboard: {fileID: 1978435827108297383}
+  m_maxSwitchCount: 100
+  m_observer: 21
+  m_state: 0
+  m_countTrue: 0
+  m_countFalse: 0
+  m_useDebugView: 0
+  m_timeObserve: 3
+  m_dilatation: 4
+  m_description: 
+  m_numericDescription: 
+--- !u!114 &5407451956273578208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978435827108297377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ba9a482f141e44a37401bfe61de68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_keyboardReader: {fileID: 1978435827108297383}
+  m_timeBetweenCheckInSecond: 0.05
+  m_previous: 
+  m_current: 
+  m_pressed:
+    m_PersistentCalls:
+      m_Calls: []
+  m_released:
+    m_PersistentCalls:
+      m_Calls: []
+  m_dontCount: 7f000000860000008500000082000000

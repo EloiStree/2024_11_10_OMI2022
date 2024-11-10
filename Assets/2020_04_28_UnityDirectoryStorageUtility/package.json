@@ -1,0 +1,15 @@
+{                                                                                
+  "name": "be.eloistree.unitydirectorystorageutility",                              
+  "displayName": "Unity Directory Storage Utility",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "description": "Just a tool to access the directories to save and load file depending of the platform.",                         
+  "keywords": ["Script","Tool"],                       
+  "category": "Script",                   
+  "dependencies":{"be.eloistree.license":"0.0.1"}     ,
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/eloistree/2020_04_28_UnityDirectoryStorageUtility.git",
+    "revision": "e3b07ebac2eba785b0861b4147f22b7041387a66"
+  }
+} 

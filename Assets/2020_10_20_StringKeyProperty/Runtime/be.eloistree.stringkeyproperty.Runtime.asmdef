@@ -1,0 +1,14 @@
+{
+    "name": "be.eloistree.stringkeyproperty",
+    "references": [
+        "be.eloistree.generaltoolbox"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

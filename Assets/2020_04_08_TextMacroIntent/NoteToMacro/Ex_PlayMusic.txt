@@ -1,0 +1,6 @@
+#John Cyna Chainsaws
+## Chainsaw in Doom eternal and request to play JohnCyna.mp3 music
+Play Music JohnCena.mp3
+Stroke R
+Wait 100
+Stroke C

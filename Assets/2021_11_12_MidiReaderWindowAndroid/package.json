@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.midireaderwindowandroid",                              
+  "displayName": "Midi Reader Window Android",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package do several thing but aim to be a reader mainly for the platform Window and Android of the Midi Input.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2021_11_12_MidiReaderWindowAndroid.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.naudiowindowdll",                              
+  "displayName": "NAudio Window DLL",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package contains the DLL needed to have NAudio in Unity by packge without having to use NuGet or else. Note that I don't own the code, I am just using it. See read me for the source.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2021_11_11_NAudioWindowDLL.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

@@ -1,0 +1,3 @@
+# ➤ ☗ |  ↓ ↑ ♦
+# RegexToLookFor  ♦ FollowingCommand1  ♦ FollowingCommand2 ♦ ...  
+aoe:[Hello|Bonjour|Hi] ♦jomi:Enter↓ ⌛30 Enter↑ ⌛30 [[Hello]] ⌛30 Enter↓ ⌛30 Enter↑ ♦ DebugLog Said Hello

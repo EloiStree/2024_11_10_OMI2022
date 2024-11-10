@@ -1,0 +1,13 @@
+☗name Set three window to they place
+☗callid boxes:fivebotloadsoulattack
+↑10 ↓10♦macro:bot:select1 
+↑10 ↓300♦jomi:  tab↓  tab↑ ⌛10  a↓ ⌛20 a↑  0↓ ⌛20 0↑  
+↑10 ↓10♦macro:bot:select2
+↑10 ↓300♦jomi:  tab↓  tab↑ ⌛10  a↓ ⌛20 a↑  0↓ ⌛20 0↑   
+↑10 ↓10♦macro:bot:select3
+↑10 ↓300♦jomi:  tab↓  tab↑ ⌛10  a↓ ⌛20 a↑  0↓ ⌛20 0↑  
+↑10 ↓10♦macro:bot:select4
+↑10 ↓300♦jomi:  tab↓  tab↑ ⌛10  a↓ ⌛20 a↑  0↓ ⌛20 0↑  
+↑10 ↓10♦macro:bot:select5
+↑10 ↓300♦jomi:  tab↓  tab↑ ⌛10  a↓ ⌛20 a↑  0↓ ⌛20 0↑   
+↑10 ↓10♦macro:bot:select1

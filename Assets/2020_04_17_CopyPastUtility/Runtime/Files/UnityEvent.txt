@@ -1,0 +1,3 @@
+﻿    [SerializeField] CustomEvent m_onSomething;
+    [System.Serializable]
+    public class CustomEvent : UnityEvent<string> { }

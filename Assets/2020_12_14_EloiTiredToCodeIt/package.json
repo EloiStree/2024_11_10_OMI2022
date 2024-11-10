@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.tiredtocodeit",                              
+  "displayName": "Eloi Tired To Code It",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "If a code is in this package, it means that I f**k tired of writing it from projects to projects. So I decide to put it in all my projects.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_12_14_EloiTiredToCodeIt.git",
+"footprint":"",
+"revision":"d39c6b70651e8e2716194af217993f90b6acbf98"},     
+  "category": "Script"                   
+} 

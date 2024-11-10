@@ -1,0 +1,13 @@
+{                                                                                
+  "name": "be.eloistree.koficount",                              
+  "displayName": "Ko Fi Count",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "description": "This tool is Ko-Fi counter that remind the open source user to he used X number of time. Some part of your code. And that welcome him to offer you a coffe.",                         
+  "keywords": ["Script","Tool"],                       
+  "category": "Script",                   
+  "dependencies":{
+    "com.unity.editorcoroutines":"0.0.1",
+    "be.eloistree.license":"0.0.1"
+  }     
+} 

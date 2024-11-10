@@ -1,0 +1,22 @@
+///////////////////  Foot board
+LightDownRightFoot
+LightDownLeftFoot
+LightUpRightFoot
+LightUpLeftFoot
+LightCenterFoot
+PaintDownRightFoot
+PaintDownLeftFoot
+PaintUpRightFoot
+PaintUpLeftFoot
+PaintCenterFoot
+///////////////////  Handboard
+FingerTip
+FingerMiddle
+FingerRoot
+ThumbUp
+ThumbDown
+Hand
+PaintTopLeftHand
+PaintTopRightHand
+PaintDownLeftHand
+PaintDownRightHand

@@ -1,0 +1,19 @@
+➤ ☗ | ↓ ↑ ♦
+#WAPin0↓  ♦ RightClick↓ RightClick↑  ♦ ☗TriggerOnTrue
+WAPin3↓  ♦ Shift↓ MiddleClick↓ ♦ ☗TriggerOnTrue
+WAPin3↑  ♦  MiddleClick↑ Shift↑ ♦ ☗TriggerOnTrue
+WAPin6↓  ♦   S↓↑ [[point circle]] VK_Enter↓↑ ♦ ☗TriggerOnTrue
+WAPin6↑  ♦    ♦ ☗TriggerOnTrue
+Hand + PaintTopLeftHand ♦ B↓ B↑ ♦ ☗TriggerOnTrue
+Hand + FingerTip ♦ A↓ A↑ ♦ ☗TriggerOnTrue 
+#WAPin6↑  ♦    A↑ ♦ ☗TriggerOnTrue
+#WAPin2 ♦ VK_DOWN↓ VK_DOWN↑ ♦ ☗LoopOnTrue 50
+#WAPin4 ♦ VK_UP↓ VK_UP↑ ♦ ☗LoopOnTrue 50
+#Hand + PaintDownLeftHand ♦ MiddleClick↓ MiddleClick↑ ♦ ☗TriggerOnTrue
+#Hand + PaintDownRightHand ♦ DoubleClick↓ DoubleClick↑ ♦ ☗TriggerOnFalse
+#!Hand + PaintTopLeftHand  ♦ ArrowLeft↓ ArrowLeft↑ ♦ ☗LoopOnTrue 50
+#!Hand + PaintTopRightHand ♦ ArrowRight↓ ArrowRight↑ ♦ ☗LoopOnTrue 50 
+#!Hand + PaintDownLeftHand ♦ ScrollUp↓ ScrollUp↑ ♦ ☗LoopOnTrue 250
+#!Hand + PaintDownRightHand ♦ ScrollDown↓ ScrollDown↑ ♦ ☗LoopOnTrue 250
+#Hand +  PaintDownRightHand + PaintDownLeftHand ♦ ScrollDown↓ ScrollDown↑ ♦ ☗LoopOnFalse 250
+     

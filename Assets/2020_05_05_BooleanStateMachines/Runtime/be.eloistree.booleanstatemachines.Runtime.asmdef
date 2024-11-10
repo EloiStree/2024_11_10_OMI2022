@@ -1,0 +1,16 @@
+{
+    "name": "be.eloistree.booleanstatemachines",
+    "rootNamespace": "",
+    "references": [
+        "be.eloistree.booleanhistory"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

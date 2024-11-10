@@ -1,0 +1,8 @@
+#Spread Mini-Missile
+## Allow to quickly fire mini missiles in Doom Eternal
+0ms|Switch Weapon Mini-Missile
+200ms|Mouse Press Right
+220ms|Mouse Press Left
+2000ms|Mouse Release Left
+2020ms|Mouse Release Right
+

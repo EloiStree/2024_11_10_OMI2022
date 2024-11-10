@@ -1,0 +1,14 @@
+# Triple hit
+## Triggeer a triple hit on a game
+xbox x on
+wait 100
+xbox x off
+wait 100
+xbox x on
+wait 100
+xbox x off
+wait 100
+xbox x on
+wait 100
+xbox x off
+wait 100

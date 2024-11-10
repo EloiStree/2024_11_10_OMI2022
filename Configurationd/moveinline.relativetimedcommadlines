@@ -1,0 +1,11 @@
+☗name Set three window to they place
+☗callid boxes:moveinline
+↑10 ↓100♦macro:bot:select2
+↑10 ↓250♦jomi: w↓⌛100 w↑
+↑10 ↓100♦macro:bot:select3
+↑10 ↓250♦jomi: w↓⌛200 w↑
+↑10 ↓100♦macro:bot:select4
+↑10 ↓250♦jomi: x↓⌛200 x↑
+↑10 ↓100♦macro:bot:select5
+↑10 ↓250♦jomi: x↓⌛100 x↑
+↑10 ↓100♦macro:bot:select1

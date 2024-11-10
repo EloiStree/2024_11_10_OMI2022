@@ -1,0 +1,19 @@
+{
+    "name": "be.eloistree.nodoubtstoragetargetEditor",
+    "rootNamespace": "",
+    "references": [
+        "be.eloistree.nodoubtstoragetarget",
+        "be.eloistree.generaltoolbox"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

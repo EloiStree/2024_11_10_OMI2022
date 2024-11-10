@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7525992228197921706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7525992228197921719}
+  - component: {fileID: 7525992228197921716}
+  - component: {fileID: 7525992228197921718}
+  m_Layer: 0
+  m_Name: TimeThreadMono
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7525992228197921719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525992228197921706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 434.2798, y: 291.11246, z: -0.5255432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7525992228197921716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525992228197921706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2005e21d7a1afda4baef3076403de6fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_priorityLevel: 1
+  m_sleepTimeInMs: 10
+  m_autoStart: 1
+  m_deltaTime: 0
+  m_milliSecondSecond: 0
+  m_timePastInMs: 0
+  m_wantTheThreadAlive: 0
+--- !u!114 &7525992228197921718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525992228197921706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21dfef71207854458230812bb841cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_timeThread: {fileID: 7525992228197921716}
+  m_60FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 16
+  m_30FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 33
+  m_20FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 50
+  m_10FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 100
+  m_5FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 200
+  m_4FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 250
+  m_2FPS:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 500
+  m_1Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 1000
+  m_5Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 5000
+  m_10Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 10000
+  m_20Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 20000
+  m_30Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 30000
+  m_60Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 60000
+  m_300Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 300000
+  m_600Second:
+    m_unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_milliseconds: 600000

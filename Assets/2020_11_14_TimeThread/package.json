@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.timethread",                              
+  "displayName": "Time Thread",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package allow you to create a thread that only purpose is to manage the time indepently of the game performance.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_11_14_TimeThread.git",
+"footprint":"",
+"revision":"2ce8843efff625a3ccd68ea3805672667fbbac82"},     
+  "category": "Script"                   
+} 

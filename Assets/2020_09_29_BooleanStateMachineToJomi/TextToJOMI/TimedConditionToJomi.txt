@@ -1,0 +1,6 @@
+➤ ☗ |  ↓ ↑ ♦
+//MouseN + MouseO  ♦ Tab↓ Tab↑ ♦ ☗MinTime 1000 ☗MaxTime 3000 ☗LoopOnTrue 50 ☗LoopOnFalse 50 ☗TriggerOnRange
+        //MouseN + MouseO  ♦ Click↓ Click↑ ♦ ☗MinTime 1000 ☗MaxTime 3000 ☗LoopOnTrue 50  ☗TriggerOnRange ☗TriggerOutOfRange
+        //MouseN + MouseO  ♦ Tab↓ Tab↑ ♦ ☗Time 500   ☗TriggerOnReleaseInRange  
+        //MouseN + MouseO  ♦ Tab↓ Tab↑ ♦ ☗Time 100   ☗TriggerOnReleaseInRange 
+        //MouseN + MouseO  ♦ Tab↓ Tab↑ ♦ ☗MinTime 1000 ☗MaxTime 3000 ☗LoopOnTrue 50 ☗LoopOnFalse 50 

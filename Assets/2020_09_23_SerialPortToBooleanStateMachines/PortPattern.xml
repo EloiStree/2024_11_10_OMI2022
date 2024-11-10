@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AnalogDigitalCompressConfig>
+
+  <PortConnections>
+    <PortConnection portId="11" patternName="Left Hand Pad V1" />
+    <PortConnection portId="21" patternName="Wood Adaptator" />
+    <PortConnection portId="23" patternName="Footboard V1" />
+  </PortConnections>
+  <AnalogDigitalCompressPatterns>
+    <AnalogDigitalCompressPattern name="Left Hand Pad V1" docUrl="">
+      <analog index="0" label="PTR" from="5" to="9" />
+      <analog index="1" label="PTL" from="5" to="9"/>
+      <analog index="2" label="PDR" from="5" to="9"/>
+      <analog index="3" label="PDL" from="5" to="9"/>
+      <analog index="4" label="FingerDown" from="5" to="9"/>
+      <analog index="5" label="FingerTop" from="5" to="9"/>
+      <analog index="6" label="FingerMiddle" from="6" to="9"/>
+      <analog index="7" label="ThumbDown" from="8" to="9"/>
+      <analog index="8" label="ThumbUp" from="5" to="9"/>
+      <analog index="9" label="Hand" from="5" to="9"/>
+    </AnalogDigitalCompressPattern>
+    <AnalogDigitalCompressPattern name="Wood Adaptator" docUrl="">
+      <analog index="0" label="WAPin0" from="5" to="9" />
+      <analog index="1" label="WAPin1" from="5" to="9"/>
+      <analog index="2" label="WAPin2" from="5" to="9"/>
+      <analog index="3" label="WAPin3" from="5" to="9"/>
+      <analog index="4" label="WAPin4" from="5" to="9"/>
+      <analog index="5" label="WAPin5" from="5" to="9"/>
+      <analog index="6" label="WAPin6" from="5" to="9"/>
+    </AnalogDigitalCompressPattern>
+    <AnalogDigitalCompressPattern name="Footboard V1" docUrl="">
+      <analog index="0" label="FootPaintDR" from="8" to="9" />
+      <analog index="1" label="FootPaintTR" from="8" to="9"/>
+      <analog index="4" label="FootPaintDL" from="8" to="9"/>
+      <analog index="5" label="FootPaintC" from="8" to="9"/>
+      <analog index="6" label="FootPaintTL" from="8" to="9"/>
+      <analog index="7" label="FootLightTR" from="8" to="9"/>
+      <analog index="8" label="FootLightDR" from="8" to="9"/>
+      <analog index="9" label="FootLightDL" from="8" to="9"/>
+      <analog index="10" label="FootLightTL" from="8" to="9"/>
+      <analog index="11" label="FootLightC" from="8" to="9"/>
+    </AnalogDigitalCompressPattern>
+  </AnalogDigitalCompressPatterns>
+</AnalogDigitalCompressConfig>

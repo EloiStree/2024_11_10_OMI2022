@@ -1,0 +1,7 @@
+➤ ☗ |  ↓ ↑ ♦
+// This file is here to set a boolean from this file. 
+// It allows to define some preference and mode
+SpamModeWeapon1♦True
+SpamModeWeapon2♦True
+SniperMode♦False
+AimAndFireModeWeapon2♦False

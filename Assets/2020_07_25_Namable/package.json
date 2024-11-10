@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.namable",                              
+  "displayName": "Namable class",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Utility box to manipulate namable classe: Store, Filter, Select...",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_07_25_Namable.git",
+"footprint":"",
+"revision":"e4a51fc2c7f106871379672e72fd1b38c1c2e2cf"},     
+  "category": "Script"                   
+} 

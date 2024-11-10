@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3525451993470330432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3525451993470330433}
+  - component: {fileID: 3525451993470330439}
+  - component: {fileID: 3525451993470330438}
+  m_Layer: 0
+  m_Name: Monitors information utility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3525451993470330433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451993470330432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3525451994207666049}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3525451993470330439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451993470330432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81b1e64952d79b447bbe4a88faedff83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_devices:
+  - m_display:
+      cb: 424
+      DeviceName: \\.\DISPLAY1
+      DeviceString: NVIDIA GeForce GTX 1650
+      StateFlags: 524293
+      DeviceID: PCI\VEN_10DE&DEV_1F82&SUBSYS_871C1043&REV_A1
+      DeviceKey: \Registry\Machine\System\CurrentControlSet\Control\Video\{C9E2433A-8E7E-11EC-9C0A-806E6F6E6963}\0000
+    m_devMode:
+      dmDeviceName: CDD
+      dmSpecVersion: 1025
+      dmDriverVersion: 1025
+      dmSize: 220
+      dmDriverExtra: 0
+      dmFields: 544997536
+      dmPositionX: 0
+      dmPositionY: 0
+      dmDisplayOrientation: 0
+      dmDisplayFixedOutput: 0
+      dmColor: 0
+      dmDuplex: 0
+      dmYResolution: 0
+      dmTTOption: 0
+      dmCollate: 0
+      dmFormName: 
+      dmLogPixels: 96
+      dmBitsPerPel: 32
+      dmPelsWidth: 1920
+      dmPelsHeight: 1080
+      dmDisplayFlags: 0
+      dmDisplayFrequency: 60
+      dmICMMethod: 0
+      dmICMIntent: 0
+      dmMediaType: 0
+      dmDitherType: 0
+      dmReserved1: 0
+      dmReserved2: 0
+      dmPanningWidth: 0
+      dmPanningHeight: 0
+    m_inner: []
+  - m_display:
+      cb: 424
+      DeviceName: \\.\DISPLAY2
+      DeviceString: NVIDIA GeForce GTX 1650
+      StateFlags: 524289
+      DeviceID: PCI\VEN_10DE&DEV_1F82&SUBSYS_871C1043&REV_A1
+      DeviceKey: \Registry\Machine\System\CurrentControlSet\Control\Video\{C9E2433A-8E7E-11EC-9C0A-806E6F6E6963}\0001
+    m_devMode:
+      dmDeviceName: CDD
+      dmSpecVersion: 1025
+      dmDriverVersion: 1025
+      dmSize: 220
+      dmDriverExtra: 0
+      dmFields: 544997536
+      dmPositionX: 1920
+      dmPositionY: 0
+      dmDisplayOrientation: 0
+      dmDisplayFixedOutput: 0
+      dmColor: 0
+      dmDuplex: 0
+      dmYResolution: 0
+      dmTTOption: 0
+      dmCollate: 0
+      dmFormName: 
+      dmLogPixels: 96
+      dmBitsPerPel: 32
+      dmPelsWidth: 1920
+      dmPelsHeight: 1080
+      dmDisplayFlags: 0
+      dmDisplayFrequency: 60
+      dmICMMethod: 0
+      dmICMIntent: 0
+      dmMediaType: 0
+      dmDitherType: 0
+      dmReserved1: 0
+      dmReserved2: 0
+      dmPanningWidth: 0
+      dmPanningHeight: 0
+    m_inner: []
+  - m_display:
+      cb: 424
+      DeviceName: \\.\DISPLAY3
+      DeviceString: NVIDIA GeForce GTX 1650
+      StateFlags: 524289
+      DeviceID: PCI\VEN_10DE&DEV_1F82&SUBSYS_871C1043&REV_A1
+      DeviceKey: \Registry\Machine\System\CurrentControlSet\Control\Video\{C9E2433A-8E7E-11EC-9C0A-806E6F6E6963}\0002
+    m_devMode:
+      dmDeviceName: CDD
+      dmSpecVersion: 1025
+      dmDriverVersion: 1025
+      dmSize: 220
+      dmDriverExtra: 0
+      dmFields: 544997536
+      dmPositionX: -1366
+      dmPositionY: 298
+      dmDisplayOrientation: 0
+      dmDisplayFixedOutput: 0
+      dmColor: 0
+      dmDuplex: 0
+      dmYResolution: 0
+      dmTTOption: 0
+      dmCollate: 0
+      dmFormName: 
+      dmLogPixels: 96
+      dmBitsPerPel: 32
+      dmPelsWidth: 1366
+      dmPelsHeight: 768
+      dmDisplayFlags: 0
+      dmDisplayFrequency: 59
+      dmICMMethod: 0
+      dmICMIntent: 0
+      dmMediaType: 0
+      dmDitherType: 0
+      dmReserved1: 0
+      dmReserved2: 0
+      dmPanningWidth: 0
+      dmPanningHeight: 0
+    m_inner: []
+  - m_display:
+      cb: 424
+      DeviceName: \\.\DISPLAY4
+      DeviceString: NVIDIA GeForce GTX 1650
+      StateFlags: 524288
+      DeviceID: PCI\VEN_10DE&DEV_1F82&SUBSYS_871C1043&REV_A1
+      DeviceKey: \Registry\Machine\System\CurrentControlSet\Control\Video\{C9E2433A-8E7E-11EC-9C0A-806E6F6E6963}\0003
+    m_devMode:
+      dmDeviceName: 
+      dmSpecVersion: 1025
+      dmDriverVersion: 1025
+      dmSize: 220
+      dmDriverExtra: 0
+      dmFields: 410910848
+      dmPositionX: 0
+      dmPositionY: 0
+      dmDisplayOrientation: 0
+      dmDisplayFixedOutput: 0
+      dmColor: 0
+      dmDuplex: 0
+      dmYResolution: 0
+      dmTTOption: 0
+      dmCollate: 0
+      dmFormName: 
+      dmLogPixels: 96
+      dmBitsPerPel: 0
+      dmPelsWidth: 0
+      dmPelsHeight: 0
+      dmDisplayFlags: 0
+      dmDisplayFrequency: 0
+      dmICMMethod: 0
+      dmICMIntent: 0
+      dmMediaType: 0
+      dmDitherType: 0
+      dmReserved1: 0
+      dmReserved2: 0
+      dmPanningWidth: 0
+      dmPanningHeight: 0
+    m_inner: []
+--- !u!114 &3525451993470330438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451993470330432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff57391a89e41864e8e8eb6659b5b584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_startTime: 0
+  m_repeatTime: 0.5
+  m_tick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3525451993470330439}
+        m_TargetAssemblyTypeName: WindowMonitorsInformationUtilityMono, Assembly-CSharp
+        m_MethodName: RefreshAllMonitorsInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_countDown: 0
+--- !u!1 &3525451994156693046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3525451994156693047}
+  - component: {fileID: 3525451994156693044}
+  - component: {fileID: 3072844922825012840}
+  m_Layer: 0
+  m_Name: TDD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3525451994156693047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994156693046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3525451994207666049}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3525451994156693044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994156693046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7483283e07237f04ea20589f6093f99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_timeToPush: 3000
+  m_moveIdPx:
+    m_displayID: 1
+    m_screenRelative:
+      m_xLeft2Right: 50
+      m_yTop2Down: 50
+  m_moveStringPx:
+    m_displayNameID: \\.\DISPLAY3
+    m_screenRelative:
+      m_xLeft2Right: 50
+      m_yTop2Down: 50
+  m_moveIdPct:
+    m_displayID: 2
+    m_screenRelative:
+      m_xLeft2Right: 0.1
+      m_yTop2Down: 0.1
+  m_moveStringPct:
+    m_displayNameID: \\.\DISPLAY2
+    m_screenRelative:
+      m_xLeft2Right: 0.2
+      m_yTop2Down: 0.2
+--- !u!114 &3072844922825012840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994156693046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c9750aadc8de64db2ea03f00427c02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_focusProcess:
+    m_pointer: 0
+  m_focusProcessParent:
+    m_pointer: 0
+    m_isParent: 0
+  m_focusProcessActiveChild:
+    m_pointer: 0
+    m_isParent: 0
+  m_timeToMoveToTestZone: 3
+  m_postKey:
+    m_processId:
+      m_pointer: 0
+    m_targetKey: 65
+    m_pressionType: 0
+  m_moveMouseDT:
+    m_xPixelLeft2Right: 0
+    m_yPixelDown2Top: 200
+  m_moveMouseTD:
+    m_xPixelLeft2Right: 0
+    m_yPixelTop2Down: 200
+  m_setCursorTD:
+    m_whereToMove:
+      m_xLeft2Right: 500
+      m_yTop2Down: 0
+  m_realKey:
+    m_targetKey: 0
+    m_pressionType: 0
+  m_setFocusOnWindow:
+    m_processId:
+      m_pointer: 0
+  m_setClipboard:
+    m_textToPast: Test
+  m_cursorWithDelay:
+    m_processId:
+      m_pointer: 0
+    m_targetButton: 0
+    m_secondToMaintain: 0
+  m_cursorClick:
+    m_targetButton: 0
+  m_cursorInteraction:
+    m_targetButton: 0
+    m_interaction: 0
+  m_moveOverPx:
+    m_processId:
+      m_pointer: 0
+    m_whereToMove:
+      m_xLeft2Right: 0
+      m_yTop2Down: 0
+--- !u!1 &3525451994207666051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3525451994207666049}
+  - component: {fileID: 3525451994207666048}
+  - component: {fileID: 3525451994207666052}
+  - component: {fileID: 3525451994207666055}
+  m_Layer: 0
+  m_Name: User32ActionDefaultCatchToThreadExecution
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3525451994207666049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994207666051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 908.2552, y: 410.88794, z: 76.69287}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3525451993470330433}
+  - {fileID: 3525451994156693047}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3525451994207666048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994207666051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3add0f085053170479db97d1bfd312ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_useDebugHistory: 1
+  m_receivedHistory:
+    m_historySize: 10
+    m_history: []
+  m_notManageHistory:
+    m_historySize: 10
+    m_history: []
+  m_threadUsedForTime: {fileID: 0}
+  m_useableClassInProject:
+  - Action_HideProcessId
+  - Action_Post_CursorInteraction
+  - Action_Post_CursorClick
+  - Action_Post_CursorClickWithDelay
+  - Action_Post_KeyInteraction
+  - Action_Post_MoveCursor_PCT_LRTD
+  - Action_Post_MoveCursor_PX_LRTD
+  - Action_Real_CopyClipboard
+  - Action_Real_CursorInteraction
+  - Action_Real_CursorClick
+  - Action_Real_CursorHoldPression
+  - Action_Real_CutClipboard
+  - Action_Real_KeyInteraction
+  - Action_Real_MoveCursor_PX_LRTD
+  - Action_Real_MoveCursor_PX_LRDT
+  - Action_Real_PastClipboard
+  - Action_Real_SetCursorPosition_PX_LRTD
+  - Action_Real_SetCursor_OverDisplayID_PCT_LRTD
+  - Action_Real_SetCursor_OverDisplayName_PCT_LRTD
+  - Action_Real_SetCursor_OverDisplayID_PX_LRTD
+  - Action_Real_SetCursor_OverDisplayName_PX_LRTD
+  - Action_Real_SetCursor_OverProcess_PCT_LRTD
+  - Action_Real_SetCursor_OverProcess_PX_LRTD
+  - Action_ResizeCurrentWindowToSquareZone_PX_LRDT
+  - Action_ResizeCurrentWindowToNative_PX_LRTD
+  - Action_ResizeCurrentWindowAroundPoint_PX_LRTD
+  - Action_ResizeProcessWindowToSquareZone_PX_LRDT
+  - Action_ResizeProcessWindowToNative_PX_LRTD
+  - Action_ResizeProcessWindowAroundPoint_PX_LRTD
+  - Action_SetClipboardText
+  - Action_ShowProcessId
+  - Action_User32_SetFocusWindow
+  - IUser32Action
+  m_accessWindowInfo: {fileID: 3525451994207666052}
+--- !u!114 &3525451994207666052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994207666051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290c31ae68aa4d54380a9f61d02e337e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3525451994207666055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3525451994207666051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff57391a89e41864e8e8eb6659b5b584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_startTime: 0
+  m_repeatTime: 0.5
+  m_tick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3525451994207666052}
+        m_TargetAssemblyTypeName: AccessWindowZoneWithoutStressOnUser32, Assembly-CSharp
+        m_MethodName: RefreshAll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_countDown: 0

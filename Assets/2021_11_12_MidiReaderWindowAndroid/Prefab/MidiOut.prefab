@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6472746177656052672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6472746177656052673}
+  - component: {fileID: 6472746177656052286}
+  - component: {fileID: 6472746177656052284}
+  - component: {fileID: 6472746177656052285}
+  m_Layer: 0
+  m_Name: Send Note Experiment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6472746177656052673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746177656052672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6472746178380431419}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6472746177656052286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746177656052672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dde0e2855317442ae7bbb0caf6a550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_connectionMono: {fileID: 6472746178380431418}
+  m_abosluteTime: 0
+  m_channel: 10
+  m_noteNumber: 46
+  m_duration: 500
+  m_velocity: 100
+--- !u!114 &6472746177656052284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746177656052672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cfe1830ccf449478d18af45adabca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6472746177656052285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746177656052672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7aa5b9a5c7769a4b8532bf392bc8618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_keyboard: 277
+  m_down:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6472746177656052286}
+        m_TargetAssemblyTypeName: Experiment_PushNoteMidiOut, OnlyWindowTest
+        m_MethodName: SendNoteOnOff
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  m_up:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6472746177656052286}
+        m_TargetAssemblyTypeName: Experiment_PushNoteMidiOut, OnlyWindowTest
+        m_MethodName: SendNoteOnOff
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_useUpdate: 0
+  m_update:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6472746178380431421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6472746178380431419}
+  - component: {fileID: 6472746178380431418}
+  - component: {fileID: 6472746178380431416}
+  - component: {fileID: 6472746178380431417}
+  m_Layer: 0
+  m_Name: MidiOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6472746178380431419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746178380431421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 371.39496, y: 183.04532, z: -195.37827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6472746177656052673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6472746178380431418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746178380431421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642e287a64fa4ae408820adc5fd90f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_midiNameId: UM-ONE
+  m_found: 0
+  m_foundId: 0
+  m_connected: 0
+  m_historyDebug:
+    m_historySize: 10
+    m_history: []
+--- !u!114 &6472746178380431416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746178380431421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca49b139a09f6144081f26261d6be8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_destructionRootTarget: {fileID: 0}
+  m_destructionType: 1
+  m_beforeCallingDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  m_destroyCall:
+    m_PersistentCalls:
+      m_Calls: []
+  m_afterCallingDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUnityOnDestroyCall:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6472746178380431418}
+        m_TargetAssemblyTypeName: MidiOutMono, Assembly-CSharp
+        m_MethodName: SetConnectionOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6472746178380431417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472746178380431421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc23b81d9933c641af710bc10a47ca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_tick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6472746178380431418}
+        m_TargetAssemblyTypeName: MidiOutMono, Assembly-CSharp
+        m_MethodName: SetConnectionOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

@@ -1,0 +1,25 @@
+{                                                                                
+  "name": "be.eloistree.mousescreennativeinformation",                              
+  "displayName": "Mouse Screen Informatoin",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Allow to have access to informtion of the mouse and the screen using native tools to track it outside of the Unity Project.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{
+"be.eloistree.namable":"0.0.1"
+
+  },     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_07_17_MouseScreenInformation.git",
+"footprint":"",
+"revision":"a0d4f5b4c8a842fdca37cb6785e93f947a9a95d0"},     
+  "category": "Script"                   
+} 

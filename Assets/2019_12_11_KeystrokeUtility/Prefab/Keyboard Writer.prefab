@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &788281668583422257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788281668583422258}
+  - component: {fileID: 788281668583422259}
+  - component: {fileID: 788281668583422256}
+  m_Layer: 0
+  m_Name: Keyboard Writer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &788281668583422258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788281668583422257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.33334, y: 397.09998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &788281668583422259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788281668583422257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367930380a5c8e845bd7464cfb5d3034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &788281668583422256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788281668583422257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aa36cd4ad5a4948ba9800ea662128f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_keyboard: {fileID: 788281668583422259}
+  m_delayBeforeWriting: 4
+  m_keyCodes: 100000000c000000
+  m_characters: 222623262026a026ae00a500
+  m_text: "(\u0CA0_\u0CA0)   (\u30CE\u0CA0\u76CA\u0CA0)\u30CE\u5F61\u253B\u2501\u253B      
+    \u252C\u2500\u2500\u252C \u30CE( \u309C-\u309C\u30CE) "
+  m_fromCol: 2
+  m_toCol: 5
+  m_asciiInfo:
+  - '0:   (NULL - Null)'
+  - "1: \u263A (SOH - Start of Heading)"
+  - "2: \u263B (STX - Start of Text)"
+  - "3: \u2665 (ETX - End of Text)"
+  - "4: \u2666 (EOT - End of Transmission)"
+  - "5: \u2663 (ENQ - Equiry)"
+  - "6: \u2663 (ACK - Acknowledgement)"
+  - "7: \u2022 (BEL - Bell)"
+  - "8: \u25D8 (BS - Backspace)"
+  - "9: \u25CB (HT - Horizontal Tab)"
+  - "10: \u25D9 (LF - Line Feed)"
+  - "11: \u2642 (VT - Vertical Tab)"
+  - "12: \u2640 (FF - Form Feed)"
+  - "13: \u266A (CR - Carriage Return)"
+  - "14: \u266B (SO - Shift Out)"
+  - "15: \u263C (SI - Shift In)"
+  - "16: \u25BA (DLE - Data Link Escape)"
+  - "17: \u25C4 (DC1 - Device Control 1)"
+  - "18: \u2195 (DC2 - Device Control 2)"
+  - "19: \u203C (DC3 - Device Control 3)"
+  - "20: \xB6 (DC4 - Device Control 4)"
+  - "21: \xA7 (NAK - Negative Acknowledgement)"
+  - "22: \u25AC (SYN - Synchronous Idle)"
+  - "23: \u21A8 (ETB - End of Transmission Block)"
+  - "24: \u2191 (CAN - Cancel)"
+  - "25: \u2193 (EM - End of Medium)"
+  - "26: \u2192 (SUB - Subtitute)"
+  - "27: \u2190 (ESC - Escape)"
+  - "28: \u221F (FS - File Separator)"
+  - "29: \u2194 (GS - Group Separator)"
+  - "30: \u25B2 (RS - Record Separator)"
+  - "31: \u25BC (US - Unity Separator)"
+  - '32:   (space - Space)'
+  - '33: ! (! - NULL)'
+  - '34: \ (" - NULL)'
+  - '35: # (# - NULL)'
+  - '36: $ ($ - NULL)'
+  - '37: % (% - NULL)'
+  - '38: & (& - NULL)'
+  - '39: '' ('' - NULL)'
+  - '40: ( (( - NULL)'
+  - '41: ) () - NULL)'
+  - '42: * (* - NULL)'
+  - '43: + (+ - NULL)'
+  - '44: , (, - NULL)'
+  - '45: - (- - NULL)'
+  - '46: . (. - NULL)'
+  - '47: / (/ - NULL)'
+  - '48: 0 (0 - NULL)'
+  - '49: 1 (1 - NULL)'
+  - '50: 2 (2 - NULL)'
+  - '51: 3 (3 - NULL)'
+  - '52: 4 (4 - NULL)'
+  - '53: 5 (5 - NULL)'
+  - '54: 6 (6 - NULL)'
+  - '55: 7 (7 - NULL)'
+  - '56: 8 (8 - NULL)'
+  - '57: 9 (9 - NULL)'
+  - '58: : (: - NULL)'
+  - '59: ; (; - NULL)'
+  - '60: < (< - NULL)'
+  - '61: = (= - NULL)'
+  - '62: > (> - NULL)'
+  - '63: ? (? - NULL)'
+  - '64: @ (@ - NULL)'
+  - '65: A (A - NULL)'
+  - '66: B (B - NULL)'
+  - '67: C (C - NULL)'
+  - '68: D (D - NULL)'
+  - '69: E (E - NULL)'
+  - '70: F (F - NULL)'
+  - '71: G (G - NULL)'
+  - '72: H (H - NULL)'
+  - '73: I (I - NULL)'
+  - '74: J (J - NULL)'
+  - '75: K (K - NULL)'
+  - '76: L (L - NULL)'
+  - '77: M (M - NULL)'
+  - '78: N (N - NULL)'
+  - '79: O (O - NULL)'
+  - '80: P (P - NULL)'
+  - '81: Q (Q - NULL)'
+  - '82: R (R - NULL)'
+  - '83: S (S - NULL)'
+  - '84: T (T - NULL)'
+  - '85: U (U - NULL)'
+  - '86: V (V - NULL)'
+  - '87: W (W - NULL)'
+  - '88: X (X - NULL)'
+  - '89: Y (Y - NULL)'
+  - '90: Z (Z - NULL)'
+  - '91: [ ([ - NULL)'
+  - '92: \ (\ - NULL)'
+  - '93: ] (] - NULL)'
+  - '94: ^ (^ - NULL)'
+  - '95: _ (_ - NULL)'
+  - '96: ` (` - NULL)'
+  - '97: a (a - NULL)'
+  - '98: b (b - NULL)'
+  - '99: c (c - NULL)'
+  - '100: d (d - NULL)'
+  - '101: e (e - NULL)'
+  - '102: f (f - NULL)'
+  - '103: g (g - NULL)'
+  - '104: h (h - NULL)'
+  - '105: i (i - NULL)'
+  - '106: j (j - NULL)'
+  - '107: k (k - NULL)'
+  - '108: l (l - NULL)'
+  - '109: m (m - NULL)'
+  - '110: n (n - NULL)'
+  - '111: o (o - NULL)'
+  - '112: p (p - NULL)'
+  - '113: q (q - NULL)'
+  - '114: r (r - NULL)'
+  - '115: s (s - NULL)'
+  - '116: t (t - NULL)'
+  - '117: u (u - NULL)'
+  - '118: v (v - NULL)'
+  - '119: w (w - NULL)'
+  - '120: x (x - NULL)'
+  - '121: y (y - NULL)'
+  - '122: z (z - NULL)'
+  - '123: { ({ - NULL)'
+  - '124: | (| - NULL)'
+  - '125: } (} - NULL)'
+  - '126: ~ (~ - NULL)'
+  - '127:   (DEL - Delete)'
+  - "128: \xC7 (\xC7 - NULL)"
+  - "129: \xFC (\xFC - NULL)"
+  - "130: \xE9 (\xE9 - NULL)"
+  - "131: \xE2 (\xE2 - NULL)"
+  - "132: \xE4 (\xE4 - NULL)"
+  - "133: \xE0 (\xE0 - NULL)"
+  - "134: \xE5 (\xE5 - NULL)"
+  - "135: \xE7 (\xE7 - NULL)"
+  - "136: \xEA (\xEA - NULL)"
+  - "137: \xEB (\xEB - NULL)"
+  - "138: \xE8 (\xE8 - NULL)"
+  - "139: \xEF (\xEF - NULL)"
+  - "140: \xEE (\xEE - NULL)"
+  - "141: \xEC (\xEC - NULL)"
+  - "142: \xC4 (\xC4 - NULL)"
+  - "143: \xC5 (\xC5 - NULL)"
+  - "144: \xC9 (\xC9 - NULL)"
+  - "145: \xE6 (\xE6 - NULL)"
+  - "146: \xC6 (\xC6 - NULL)"
+  - "147: \xF4 (\xF4 - NULL)"
+  - "148: \xF6 (\xF6 - NULL)"
+  - "149: \xF2 (\xF2 - NULL)"
+  - "150: \xFB (\xFB - NULL)"
+  - "151: \xF9 (\xF9 - NULL)"
+  - "152: \xFF (\xFF - NULL)"
+  - "153: \xD6 (\xD6 - NULL)"
+  - "154: \xDC (\xDC - NULL)"
+  - "155: \xF8 (\xF8 - NULL)"
+  - "156: \xA3 (\xA3 - NULL)"
+  - "157: \xD8 (\xD8 - NULL)"
+  - "158: \xD7 (\xD7 - NULL)"
+  - "159: \u0192 (\u0192 - NULL)"
+  - "160: \xE1 (\xE1 - NULL)"
+  - "161: \xED (\xED - NULL)"
+  - "162: \xF3 (\xF3 - NULL)"
+  - "163: \xFA (\xFA - NULL)"
+  - "164: \xF1 (\xF1 - NULL)"
+  - "165: \xD1 (\xD1 - NULL)"
+  - "166: \xAA (\xAA - NULL)"
+  - "167: \xBA (\xBA - NULL)"
+  - "168: \xBF (\xBF - NULL)"
+  - "169: \xAE (\xAE - NULL)"
+  - "170: \xAC (\xAC - NULL)"
+  - "171: \xBD (\xBD - NULL)"
+  - "172: \xBC (\xBC - NULL)"
+  - "173: \xA1 (\xA1 - NULL)"
+  - "174: \xAB (\xAB - NULL)"
+  - "175: \xBB (\xBB - NULL)"
+  - "176: \u2591 (\u2591 - NULL)"
+  - "177: \u2592 (\u2592 - NULL)"
+  - "178: \u2593 (\u2593 - NULL)"
+  - "179: \u2502 (\u2502 - NULL)"
+  - "180: \u2524 (\u2524 - NULL)"
+  - "181: \xC1 (\xC1 - NULL)"
+  - "182: \xC2 (\xC2 - NULL)"
+  - "183: \xC0 (\xC0 - NULL)"
+  - "184: \xA9 (\xA9 - NULL)"
+  - "185: \u2563 (\u2563 - NULL)"
+  - "186: \u2551 (\u2551 - NULL)"
+  - "187: \u2557 (\u2557 - NULL)"
+  - "188: \u255D (\u255D - NULL)"
+  - "189: \xA2 (\xA2 - NULL)"
+  - "190: \xA5 (\xA5 - NULL)"
+  - "191: \u2510 (\u2510 - NULL)"
+  - "192: \u2514 (\u2514 - NULL)"
+  - "193: \u2534 (\u2534 - NULL)"
+  - "194: \u252C (\u252C - NULL)"
+  - "195: \u251C (\u251C - NULL)"
+  - "196: \u2500 (\u2500 - NULL)"
+  - "197: \u253C (\u253C - NULL)"
+  - "198: \xE3 (\xE3 - NULL)"
+  - "199: \xC3 (\xC3 - NULL)"
+  - "200: \u255A (\u255A - NULL)"
+  - "201: \u2554 (\u2554 - NULL)"
+  - "202: \u2569 (\u2569 - NULL)"
+  - "203: \u2566 (\u2566 - NULL)"
+  - "204: \u2560 (\u2560 - NULL)"
+  - "205: \u2550 (\u2550 - NULL)"
+  - "206: \u256C (\u256C - NULL)"
+  - "207: \xA4 (\xA4 - NULL)"
+  - "208: \xF0 (\xF0 - NULL)"
+  - "209: \xD0 (\xD0 - NULL)"
+  - "210: \xCA (\xCA - NULL)"
+  - "211: \xCB (\xCB - NULL)"
+  - "212: \xC8 (\xC8 - NULL)"
+  - "213: \u0131 (\u0131 - NULL)"
+  - "214: \xCD (\xCD - NULL)"
+  - "215: \xCE (\xCE - NULL)"
+  - "216: \xCF (\xCF - NULL)"
+  - "217: \u2518 (\u2518 - NULL)"
+  - "218: \u250C (\u250C - NULL)"
+  - "219: \u2588 (\u2588 - NULL)"
+  - "220: \u2584 (\u2584 - NULL)"
+  - "221: \xA6 (\xA6 - NULL)"
+  - "222: \xCC (\xCC - NULL)"
+  - "223: \u2580 (\u2580 - NULL)"
+  - "224: \xD3 (\xD3 - NULL)"
+  - "225: \xDF (\xDF - NULL)"
+  - "226: \xD4 (\xD4 - NULL)"
+  - "227: \xD2 (\xD2 - NULL)"
+  - "228: \xF5 (\xF5 - NULL)"
+  - "229: \xD5 (\xD5 - NULL)"
+  - "230: \xB5 (\xB5 - NULL)"
+  - "231: \xFE (\xFE - NULL)"
+  - "232: \xDE (\xDE - NULL)"
+  - "233: \xDA (\xDA - NULL)"
+  - "234: \xDB (\xDB - NULL)"
+  - "235: \xD9 (\xD9 - NULL)"
+  - "236: \xFD (\xFD - NULL)"
+  - "237: \xDD (\xDD - NULL)"
+  - "238: \xAF (\xAF - NULL)"
+  - "239: \xB4 (\xB4 - NULL)"
+  - "240: \u2261 (\u2261 - NULL)"
+  - "241: \xB1 (\xB1 - NULL)"
+  - "242: \u2017 (\u2017 - NULL)"
+  - "243: \xBE (\xBE - NULL)"
+  - "244: \xB6 (\xB6 - NULL)"
+  - "245: \xA7 (\xA7 - NULL)"
+  - "246: \xF7 (\xF7 - NULL)"
+  - "247: \xB8 (\xB8 - NULL)"
+  - "248: \xB0 (\xB0 - NULL)"
+  - "249: \xA8 (\xA8 - NULL)"
+  - "250: \xB7 (\xB7 - NULL)"
+  - "251: \xB9 (\xB9 - NULL)"
+  - "252: \xB3 (\xB3 - NULL)"
+  - "253: \xB2 (\xB2 - NULL)"
+  - "254: \u25A0 (\u25A0 - NULL)"
+  - "255: \_ (nbsp - NULL)"
+  autoStart: 1

@@ -1,0 +1,13 @@
+☗name Set three window to they place
+☗callid boxes:moveinpentagra
+↑10 ↓50♦macro:bot:select2
+↑10 ↓50♦macro:bot:select2
+↑500 ↓5000♦jomi: q↓⌛70 q↑ z↓⌛2200 z↑ d↓⌛750 d↑
+↑10 ↓10♦macro:bot:select5
+↑100  ↓5000♦jomi: d↓⌛70 d↑ z↓⌛2200 z↑ q↓⌛750 q↑
+↑10 ↓10♦macro:bot:select3
+↑100  ↓5000♦jomi: q↓⌛200 q↑ z↓⌛1200 z↑ d↓⌛600 d↑
+↑10 ↓10♦macro:bot:select4
+↑100  ↓5000♦jomi: d↓⌛200 d↑ z↓⌛1200 z↑ q↓⌛600 q↑
+↑10 ↓10♦macro:bot:select1
+↑100  ↓5000♦jomi: s↓⌛230 s↑

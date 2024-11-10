@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.midireaderwindowandroidEditor",          
+    "references": ["be.eloistree.midireaderwindowandroid"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

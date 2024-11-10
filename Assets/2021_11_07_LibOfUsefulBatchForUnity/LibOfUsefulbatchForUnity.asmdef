@@ -1,0 +1,16 @@
+{
+    "name": "LibOfUsefulbatchForUnity",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cc56a7f591bc95445945c88084e471ff"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

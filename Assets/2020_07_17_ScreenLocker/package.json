@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.screenlocker",                              
+  "displayName": "Screen locker",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Allow to define and lock part of the native screen to use bots and auto script later.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_07_17_ScreenLocker.git",
+"footprint":"",
+"revision":"a321e85ed323199fb0c4711740339637fb8d51ac"},     
+  "category": "Script"                   
+} 

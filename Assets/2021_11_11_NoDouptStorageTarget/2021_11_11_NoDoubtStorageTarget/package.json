@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.nodoubtstoragetarget",                              
+  "displayName": "No Doubt Storage Target",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "The idea of this package is to help storing data in folder without having doubt on where it is going to be stored and be able to let the user choose.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2021_11_11_NoDoubtStorageTarget.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

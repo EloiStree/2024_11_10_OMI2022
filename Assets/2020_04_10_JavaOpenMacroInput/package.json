@@ -1,0 +1,25 @@
+
+{                                                                                
+  "name": "be.eloistree.javaopenmacroinput",                              
+  "displayName": "Java Open Macro UDP",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "description": "This tool allows you to communicate easily to Java Open Macro Input Runtime that trigger actions on your PC. See documentation bellow fir lire information on how to use the tools.",                         
+  "keywords": ["Script","Tool"],                       
+  "category": "Script",                   
+  "dependencies": { 
+   "be.eloistree.unitydirectorystorageutility":"0.0.1",
+  "be.eloistree.license":"0.0.1"
+  } ,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EloiStree/2020_04_10_JavaOpenMacroInput.git"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Copy a demo example of the package in the project",
+      "path": "Sample"
+    }
+  ]
+} 

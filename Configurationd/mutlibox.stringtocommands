@@ -1,0 +1,26 @@
+box:playhealer ♦winutility:movetoscreenlocation:healer:MainBox ♦ winutility:movetoscreenlocation:hunterone:SecondaryBox ♦ winutility:movetoscreenlocation:huntertwo:ThirdBox
+box:playhealer ♦winutility:movetoscreenlocation:healer:MainBox ♦ winutility:movetoscreenlocation:hunterone:SecondaryBox ♦ winutility:movetoscreenlocation:huntertwo:ThirdBox
+
+box:focushealer    ♦ winutility:setfocuson:healer
+box:focushunterone ♦ winutility:setfocuson:hunterone
+box:focushuntertwo ♦ winutility:setfocuson:huntertwo
+box:focusonmain ♦ macro:box:focushealer
+
+box:alljump ♦ In 0|macro:box:focushealer ♦ In 100|jomi:space↓ space↑ ♦In 200| macro:box:focushunterone ♦In 300| jomi:space↓ space↑ ♦In 400| macro:box:focushuntertwo ♦ In 500|jomi:space↓ space↑ ♦In 600| macro:box:focusonmain
+box:alldance ♦ In 0|macro:box:focushealer ♦ In 100|macro:wow:dance ♦In 200| macro:box:focushunterone ♦In 300| macro:wow:dance ♦In 400| macro:box:focushuntertwo ♦ In 500|macro:wow:dance ♦In 600| macro:box:focusonmain
+box:allfollow♦In 0|macro:box:focushealer ♦ In 100|macro:box:followleader ♦In 200| macro:box:focushunterone ♦In 600|macro:box:followleader ♦In 800| macro:box:focushuntertwo ♦ In 1000|macro:box:followleader ♦In 1200| macro:box:focusonmain
+box:allloot♦In 0|macro:box:focushealer ♦ In 100|macro:box:loot ♦In 200| macro:box:focushunterone ♦In 600|macro:box:loot ♦In 800| macro:box:focushuntertwo ♦ In 1000|macro:box:loot ♦In 1200| macro:box:focusonmain
+
+wow:dance♦jomi:enter↓ enter↑ [[/dance]] enter↓ enter↑ 
+
+//box:followleader♦jomi:enter↓ enter↑ [[/follow Ofdemons]] enter↓ enter↑ 
+box:followleader♦jomi:f12↓ f12↑
+box:loot♦jomi:enter↓ enter↑ [[/cast Loot-A-Rang]] enter↓ enter↑ 
+
+
+
+bot:select1 ♦ winutility:setfocuson:bot1
+bot:select2 ♦ winutility:setfocuson:bot2
+bot:select3 ♦ winutility:setfocuson:bot3
+bot:select4 ♦ winutility:setfocuson:bot4
+bot:select5 ♦ winutility:setfocuson:bot5 

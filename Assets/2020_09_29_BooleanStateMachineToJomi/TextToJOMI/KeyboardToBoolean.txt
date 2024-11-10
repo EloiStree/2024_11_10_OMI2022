@@ -1,0 +1,9 @@
+➤ ☗ | ↓ ↑ ♦
+Z  ♦ MoveForward
+S  ♦ MoveBackward
+Q  ♦ MoveLeft
+D  ♦ MoveRight
+Space ♦ Jump
+     
+P ♦ Pause ♦ ☗ToggleOnTrue
+     

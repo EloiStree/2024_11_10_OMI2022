@@ -1,0 +1,125 @@
+
+☗ MaxTimeFullSequence|3000  
+☗ MaxTimeCondition|800  
+☗ Cooldown|3000 
+☗ PressReleaseTime|500
+☗ Iterator|Multiple
+☗ Group|-
+
+A  ➤ "A is On" 
+!A ➤ "A is Off"
+Z↓  ➤ "Z was Pressed"
+Z↑  ➤ "Z was Released"
+!Z↓  ➤ "Z was not pressd"
+!Z↑  ➤ "Z was not released"
+
+leJoueurEstParterre ➤ "Play weird music"
+laMainGauchDerriereLaTete + laMainDroiteDerriereLaTete + leJoueurEstParterre ➤ "You are arrested !!!" 
+Xoooo➤ooooX ➤ "Play Music"
+
+
+
+
+☗ PressReleaseTime|500
+Ctlr + C↑ + A↑ ➤ "Do stuff"
+Up↓ + Left↓ + Right↓ ➤ "Do stuff"
+
+
+And|300|!A !E ➤"AE is not used"
+And|300|A E↓ ➤"A is used and E was down"
+Or|300|A E↓ ➤ "A is used or E was down"
+Xor|300|A E↓ ➤ "A is used xor E was down"
+
+☗ MaxTimeFullSequence|None  
+☗ MaxTimeCondition|None  
+☗ Cooldown|None 
+☗ PressReleaseTime|500
+☗ Iterator|Unique
+
+Ctl+C↓ ➤ Ctl+K↓ ➤ fct|setComment|true
+
+youtube + ArrowLeft ➤ "Capcutre image"
+MouseSE↓➤MouseSE↓➤"Select 3D Object"
+MouseSE↓➤MouseSE↓➤"Select 3D Object"
+
+☗ Group|Z E R A
+Regex|NL|1000|(A↓.*Z↓)|(Z↓.*A↓)➤"Left-Attack"➤Set|fireOnLeft|true
+Regex|NL|300|(E↓.*R↓)|(R↓.*E↓)➤"Step 2"
+Regex|NL|300|(Z↑.*E↑)|(E↑.*Z↑)➤"Yeah" 
+FocusApex + Left↑ + Right↑ ➤ "You are " ➤ Down↓ ➤ " an idiot!"
+FocusApex + Left↑ + Right↑ ➤ "You are " ➤ Up↓ ➤ " an genious!" 
+FocusApex + Left↑ + Right↑ ➤ "You are " ➤ Right↓ ➤ " welcome!" 
+FocusApex + Left↑ + Right↑ ➤ "You are " ➤ Left↓ ➤ " in danger!" 
+Left↑ + Right↑ ➤ fct|SayBye|Eloi Odile Lionel Milo ➤ set|bonjour|false
+Left↓ + Right↓ ➤ function|SayHello|Eloi Odile Lionel Milo ➤ set|bonjour|true
+
+Ctlr + LeftArrow↑ ➤ Ctlr + RightArrow↑ ➤"Outil de sélection"
+Shift+ LeftArrow↑ ➤ "Outil de découpe"
+
+
+
+☗ ListenAgainAfter|2000
+///Test
+R↓ Z↓  ➤ "Z was Released"
+E↑ Z↑  ➤ "Z was Released"
+E↓ Z↑  ➤ "Z was Released"
+A  ➤ "A is On" 
+!A ➤ "A is Off"
+Z↓  ➤ "Z was Pressd"
+!Z↓  ➤ "Z was not pressd"
+!Z↑  ➤ "Z was not released"
+
+AND|300| A Z ➤ "Z was Released"
+AND|300| A↓ Z↓ ➤ "Z was Released"
+AND|300| A↑ Z↑ ➤ "Z was Released"
+OR|300| A Z➤ "Z was Released"
+OR|300| A↓ Z↓➤ "Z was Released"
+OR|300| A↑ Z↑➤ "Z was Released"
+XOR|300| A Z➤ "1"➤ fct|Hello|1
+XOR|300| A↓ Z↓➤ "2"➤ fct|Hello|2➤Set|AZ|true
+XOR|300| A↑ Z↑➤ "3"➤ fct|Hello|3➤Set|AZ|false
+AND|300| A Z  ➤ "1"➤ fct|Hello|1
+AND|300| A↓ Z↓➤ "2"➤ fct|Hello|2➤Set|AZ|true
+AND|300| A↑ Z↑➤ "3"➤ fct|Hello|3➤Set|AZ|false
+d
+
+
+E↓ Z↓  ➤ "Ping"➤ E↑ Z↑  ➤ "Pong"
+
+AND|300| isLeftHandBack↑ isLeftHandForward↑➤isLeftHandFarForward  ➤ "Fireing power"
+AND|300| isLeftHandBack↑ isLeftHandForward↑➤isLeftHandFarForward ↓ ➤ "Trigger instant power"
+
+☗ MaxTimeCondition|200 
+☗ MaxTimeStateMachine|2000  
+☗ Cooldown|3000 
+☗ Group|Z E R A
+R↓ + G↓ + B↓ ➤ fct|SetCameraColor|255 255 255 ➤ Set|rgb|true ➤"RGB ON"
+Or|200|R↑  G↑  B↑ ➤  Set|rgb|false➤"RGB OFF"
+B↓➤AND|1000| !rgb↓ ➤ fct|SetCameraColor|0 0 255 ➤ Set|rgb|true➤Set|rgb|false➤"Blue"
+G↓➤AND|1000| !rgb↓ ➤ fct|SetCameraColor|0 255 0 ➤ Set|rgb|true➤Set|rgb|false➤"Green"
+R↓➤AND|1000| !rgb↓ ➤ fct|SetCameraColor|255 0 0 ➤ Set|rgb|true➤Set|rgb|false➤"Red"
+
+A + B > Set|playerJumping|false
+
+d
+AND|300| A↓ Z↓ E↓➤AND|300|1000|!A↓ !Z↓ !E↓➤ fct|SetCameraColor|255 255 255
+
+AND|300| A Z E➤ fct|SetCameraColor|255 255 255
+AND|300| A↑ Z↑➤ "3"➤ fct|Hello|3➤Set|AZ|false
+
+ChangedOnce|1000| Z E R A 
+
+IsLeftHandAtRight + IsLeftHandForward  + IsRightHandAtLeft + IsRightHandForward  ➤ Set|CrossingHand|true
+
+
+Ctrl + Shift + MouseN↓ ➤Ctrl + Shift Ctrl +  MouseN↓ ➤ Ctrl + Shift Ctrl + MouseN↓ ➤ "Play Music"
+
+AND|300| A↑ Z↑➤ "3"➤ fct|Hello|3➤Set|AZ|false
+
+
+
+/////////// SHOULD BE IMPLEMENTED BUT NOT CODE FOR NOW /////////// 
+Morse|And|300|1000|..--| ArrowLeft↓ ArrowLeft↓➤"Yo Man !"
+And|300|ArrowLeft↓ ArrowLeft↓➤And|300|ArrowLeft↓ ArrowLeft↓➤And|300|1000|ArrowLeft↓ ArrowLeft↓➤And|300|1000|ArrowLeft↓ ArrowLeft↓➤ "Same Yo Man but long"
+Morse|Or|300|1000|.-| ArrowLeft↓ ArrowLeft↓➤"Yo Man !"
+OR|300|ArrowLeft↓ ArrowLeft↓➤Or|300|1000|ArrowLeft↓ ArrowLeft↓➤ "Same Yo Man but long"

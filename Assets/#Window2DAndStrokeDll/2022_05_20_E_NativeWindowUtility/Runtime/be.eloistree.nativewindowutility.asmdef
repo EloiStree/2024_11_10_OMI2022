@@ -1,0 +1,17 @@
+{
+    "name": "be.eloistree.nativewindowutility",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cc56a7f591bc95445945c88084e471ff",
+        "GUID:dc30a065417524b4489a69fd984b0eeb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,10 @@
+# Trigger Group: Doom Switch Gun
+## This triggers are for Doom Eternal menu and guns switch
+o Press|Switch To RayGun
+o Release>1s|Fire
+AltGr ...|Shoot Long RayGun
+AltGr ..|Shoot Rocket
+Space --|Go to map menu
+Space --.|Go to weapon menu
+Space --..|Go to suite menu
+Space ---|Load Check Point

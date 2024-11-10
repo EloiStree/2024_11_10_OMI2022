@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.serialporttobooleanstatemachines",                              
+  "displayName": "Serial Port To Boolean State Machines",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Convert Serial port with Analog and Digitial compression to a boolean state machine usable for your application.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_09_23_SerialPortToBooleanStateMachines.git",
+"footprint":"",
+"revision":"0f64695a06f2ca45b7f1ca9f25705e2acb58e58b"},     
+  "category": "Script"                   
+} 

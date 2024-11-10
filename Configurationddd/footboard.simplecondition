@@ -1,0 +1,83 @@
+➤ ☗ | ↓ ↑ ♦
+//TestMacro ♦ bool:turnaroundbrainlessbots:switch     ♦ ☗TriggerOnTrue 
+//turnaroundbrainlessbots ♦ macro:boxes:fivebotattack ♦ ☗TriggerOnTrue ☗LoopOnTrue 1500
+//turnaroundbrainlessbots ♦ macro:boxes:fivebotheal ♦ ☗TriggerOnTrue ☗LoopOnTrue 10537
+//turnaroundbrainlessbots ♦ macro:boxes:fivebotloot ♦ ☗TriggerOnTrue ☗LoopOnTrue 60453
+//turnaroundbrainlessbots ♦ macro:boxes:fivebotinvokepet ♦ ☗TriggerOnTrue ☗LoopOnTrue 30123
+
+wow +  shift + botone ♦ winutility:savefocusas:bot1 ♦ ☗TriggerOnTrue
+wow +  shift + bottwo ♦ winutility:savefocusas:bot2 ♦ ☗TriggerOnTrue
+wow +  shift + botthree ♦ winutility:savefocusas:bot3 ♦ ☗TriggerOnTrue
+wow +  shift + botfour ♦ winutility:savefocusas:bot4 ♦ ☗TriggerOnTrue
+wow +  shift + botfive ♦ winutility:savefocusas:bot5 ♦ ☗TriggerOnTrue
+
+
+//!left +  !right + !up + !down ♦ jomi: space↓ space ↑♦  ☗LoopOnTrue 15000 
+
+wow +  !shift + botone♦ macro:bot:select1 ♦ ☗TriggerOnTrue
+wow +  !shift + bottwo ♦ macro:bot:select2 ♦ ☗TriggerOnTrue
+wow +  !shift + botthree ♦ macro:bot:select3 ♦ ☗TriggerOnTrue
+wow +  !shift + botfour ♦ macro:bot:select4 ♦ ☗TriggerOnTrue
+wow +  !shift + botfive ♦ macro:bot:select5 ♦ ☗TriggerOnTrue
+
+
+wow + shift + ArrowUp♦winutility:savefocusas:healer ♦ ☗TriggerOnTrue
+//shift + ArrowUp♦winutility:changetitle:healer:World of Warcraft♦ ☗TriggerOnTrue
+wow +shift + ArrowLeft ♦winutility:savefocusas:hunterone ♦ ☗TriggerOnTrue
+wow +shift + ArrowRight ♦winutility:savefocusas:huntertwo ♦ ☗TriggerOnTrue
+
+//wow +!shift+ ArrowUp ♦winutility:setfocuson:healer ♦ ☗TriggerOnTrue
+//wow+ !shift+ ArrowLeft ♦winutility:setfocuson:hunterone ♦ ☗TriggerOnTrue
+//wow +!shift+ ArrowRight ♦winutility:setfocuson:huntertwo ♦ ☗TriggerOnTrue
+//
+////wow + ArrowDown ♦ macro:boxes:defaultthree ♦ ☗TriggerOn"True
+////wow + ArrowDown ♦ macro:boxes:largethreehealer ♦ ☗TriggerOnTrue
+//wow + ArrowDown ♦ macro:boxes:defaultfivebotposition ♦ ☗TriggerOnTrue
+////wow + ArrowDown ♦ macro:boxes:largethreehunterone ♦ ☗TriggerOnTrue
+////wow + ArrowDown ♦ macro:boxes:largethreehuntertwo ♦ ☗TriggerOnTrue
+//wow + space ♦ macro:box:alljump ♦ ☗TriggerOnTrue
+////wow + alt ♦ macro:box:alldance ♦ ☗TriggerOnTrue
+//
+//wow + Home ♦winutility:savewinpositionas:defaultmain ♦ ☗TriggerOnTrue
+//wow + Delete ♦winutility:movetoscreenlocation:healer:defaultmain ♦ ☗TriggerOnTrue
+//
+//wow + actionup♦ macro:boxes:fivebotfollow ♦ ☗TriggerOnTrue
+//wow + actionright ♦ bool:turnaroundbrainlessbots:switch♦ ☗TriggerOnTrue
+//wow + actionleft ♦ macro:boxes:fivebotloot ♦ ☗TriggerOnTrue
+//wow + shift ♦ macro:boxes:fivebotloadsoulattack ♦ ☗TriggerOnTrue
+//wow + ctrl ♦ macro:boxes:fivebotquickattack ♦ ☗TriggerOnTrue
+//wow + jump ♦ macro:boxes:fivebotloot ♦ ☗TriggerOnTrue
+
+// !footlt ♦ bool:focushunterone:true ♦ ☗TriggerOnTrue
+// !footlt ♦ bool:focushunterone:false ♦ ☗TriggerOnFalse
+//
+// !footlt ♦ bool:focushealer:false ♦ ☗TriggerOnTrue
+// !footlt ♦ bool:focushealer:true ♦ ☗TriggerOnFalse
+//
+// !footrt ♦ bool:focushuntertwo:true ♦ ☗TriggerOnTrue
+// !footrt ♦ bool:focushuntertwo:false ♦ ☗TriggerOnFalse
+//
+// !footrt ♦ bool:focushealer:false ♦ ☗TriggerOnTrue
+// !footrt ♦ bool:focushealer:true ♦ ☗TriggerOnFalse
+// 
+//
+// !footlt ♦ bool:hunterspam:true ♦ ☗TriggerOnTrue
+// !footlt ♦ bool:hunterspam:false ♦ ☗TriggerOnFalse
+// !footrt ♦ bool:hunterspam:true ♦ ☗TriggerOnTrue
+// !footrt ♦ bool:hunterspam:false ♦ ☗TriggerOnFalse
+//
+//!footld ♦macro:box:allfollow ♦ ☗TriggerOnTrue
+//!footrd ♦macro:box:allloot ♦ ☗TriggerOnTrue
+
+ //focushunterone ♦ macro:box:focushunterone ♦ ☗TriggerOnTrue
+ //focushuntertwo ♦ macro:box:focushuntertwo ♦ ☗TriggerOnTrue
+ //focushealer ♦ macro:box:focushealer ♦ ☗TriggerOnTrue
+
+//wow + ctrl ♦ bool:attackmode:switch ♦ ☗TriggerOnTrue
+
+//
+//wow +usingfoot+ footlt↑100 ♦  jomiraw:ms:l♦ ☗TriggerOnTrue
+//
+
+
+

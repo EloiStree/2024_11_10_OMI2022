@@ -1,0 +1,12 @@
+➤ ☗ | ↓ ↑ ♦
+
+//wow + home♦ jomi: l↓ l↑  ♦ ☗MinTime 0  ☗MaxTime 400   ☗TriggerOnReleaseInRange 
+wow + home ♦ macro:box:alllogin ♦ ☗Time 2000 ☗TriggerOnRange
+wow + home ♦In 10000|macro:box:validatechamp ♦ ☗Time 2000 ☗TriggerOnRange
+
+
+wow + attackmode + hunterspam ♦jomi: tab↓ tab↑ ♦ ☗Time 200 ☗TriggerOnRange
+wow + attackmode + hunterspam ♦jomi: NP6↓ NP6↑  F4↓ F4↑  F5↓ F5↑ 0↓ 0↑♦ ☗Time 300 ☗TriggerOnRange
+wow + attackmode + hunterspam ♦jomi: F10↓ F10↑ ♦ ☗Time 1850 ☗TriggerOnRange
+wow + attackmode + hunterspam ♦jomi: F8↓ F8↑ ♦ ☗Time 3200 ☗TriggerOnRange
+wow + attackmode + hunterspam ♦jomi: NP8↓ NP8↑ ♦ ☗Time 5000 ☗TriggerOnRange

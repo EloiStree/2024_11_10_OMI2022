@@ -1,0 +1,3 @@
+➤ ☗ | ↓ ↑ ♦
+WAPin0↓  ♦ SwitchArmor  ♦ ☗TriggerOnTrue
+!WAPin0 +WAPin1  ♦ SwitchArmor  ♦ ☗TriggerOnFalse

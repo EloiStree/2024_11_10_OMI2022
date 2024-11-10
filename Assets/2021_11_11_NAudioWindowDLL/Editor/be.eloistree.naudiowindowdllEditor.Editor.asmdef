@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.naudiowindowdllEditor",          
+    "references": ["be.eloistree.naudiowindowdll","be.eloistree.midireaderwindowandroid"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

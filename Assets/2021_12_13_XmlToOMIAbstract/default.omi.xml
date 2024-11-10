@@ -1,0 +1,14 @@
+<!-- Convert XML to CSharp: https://xmltocsharp.azurewebsites.net/ -->
+
+<omixml>
+    <midiconnectionin midiName="Arduino Micro" />
+    <midiconnectionin midiName="MPK mini play" />
+    <midiconnectionout midiName="Microsoft GS Wavetable Synth" />
+
+    <!-- This standar is one I created before learning midi -->
+    <analogdigitalcompressioncom comIdName="COM20" nomenclatureName="FootPattern" />
+
+
+
+
+</omixml>

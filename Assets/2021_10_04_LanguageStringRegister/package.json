@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.applicationlanguageinjector",                              
+  "displayName": "Language String Injector",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package allows to inject language in the ui of the game from an CSV files your provide to the application or default value you give.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/Eloi4ActiveMe/2021_10_04_LanguageStringRegister.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

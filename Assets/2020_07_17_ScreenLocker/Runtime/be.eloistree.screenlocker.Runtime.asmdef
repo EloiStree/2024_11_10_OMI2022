@@ -1,0 +1,18 @@
+{
+    "name": "be.eloistree.screenlocker",
+    "references": [
+        "GUID:77de17f3ef24a0049993925bb7a62a86",
+        "GUID:5685cf8dfb57ecf479e396f4f1ec2d9f",
+        "GUID:dc4228434e239b548bcf2f7ee999c4f4",
+        "GUID:0436359919364d645b921390407b0b8d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

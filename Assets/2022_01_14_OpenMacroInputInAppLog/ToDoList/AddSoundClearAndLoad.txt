@@ -1,0 +1,1 @@
+Add the possibility to load a mp3 or wave in memory and to clear the memory if we want to reset without restarting the app.

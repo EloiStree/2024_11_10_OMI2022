@@ -1,0 +1,19 @@
+{
+    "name": "be.eloistree.serialporttobooleanstatemachines",
+    "rootNamespace": "",
+    "references": [
+        "be.eloistree.booleanstatemachines",
+        "be.eloistree.compressdigitalandanalog",
+        "be.eloistree.readserialport",
+        "be.eloistree.unitydirectorystorageutility"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

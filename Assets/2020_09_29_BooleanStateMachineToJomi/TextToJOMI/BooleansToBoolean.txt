@@ -1,0 +1,4 @@
+➤ ☗ |  ↓ ↑ ♦
+// This file is here to set a boolean from this file. 
+// It allows to define some preference and mode
+A+B♦C

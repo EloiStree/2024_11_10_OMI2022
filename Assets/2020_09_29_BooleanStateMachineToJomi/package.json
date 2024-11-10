@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.booleanstatemachinetojomi",                              
+  "displayName": "Boolean State Machine To Jomi",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Convert boolean from a registrer of booleans to logic that trigger actions using the JOMI library.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://gitlab.com/EloiStree/2020_09_29_BooleanStateMachineToJomi.git",
+"footprint":"",
+"revision":"d81acdac712cd511d02e222da6d37ec5abf44b88"},     
+  "category": "Script"                   
+} 

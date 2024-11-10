@@ -1,0 +1,11 @@
+➤ ☗ |  ↓ ↑ ♦
+FingerTip + FingerMiddle + FingerRoot ♦ HasFullFinger
+!FingerTip + !FingerMiddle + !FingerRoot ♦ HasNoFinger
+!FingerTip + !FingerMiddle + !FingerRoot ♦ PartlyUseFinger♦ ☗Inverse
+PaintTopLeftHand + PaintTopRightHand + PaintDownLeftHand + PaintDownRightHand ♦ HandAllButtonsDown 
+FingerTip + FingerMiddle+FingerRoot+ThumbUp+ThumbDown+Hand ♦ HandAllSensorsHide
+
+PaintDownLeftHand + PaintDownRightHand ♦ PaintDownHand
+PaintTopLeftHand + PaintTopRightHand  ♦ PaintUpHand
+PaintTopLeftHand + PaintDownLeftHand ♦ PaintLeftHand
+ PaintTopRightHand + PaintDownRightHand ♦ PaintRightHand 

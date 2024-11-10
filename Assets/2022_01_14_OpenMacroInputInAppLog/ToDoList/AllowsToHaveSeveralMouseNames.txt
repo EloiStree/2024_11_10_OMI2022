@@ -1,0 +1,2 @@
+French us SO and English use SW
+I should give possibility to have several mouse naming in .omi.xml

@@ -1,0 +1,110 @@
+
+MPK Mini Play♦Note♦C2♦NoteOne♦SetTrue
+MPK Mini Play♦Note♦26♦NoteTwo♦SetTrue
+
+MPK Mini Play♦NoteVelocity♦E2♦0.0001♦0.1♦GentleJumping♦SetTrue
+MPK Mini Play♦NoteVelocity♦E2♦0♦0♦NoJumping♦SetTrue
+MPK Mini Play♦NoteVelocity♦E2♦0.1♦0.9♦SimpleJump♦SetTrue
+MPK Mini Play♦NoteVelocity♦E2♦0.9♦1♦DoubleJump♦SetTrue
+
+MPK Mini Play♦CC♦48♦0.1♦0.4♦AttackMode♦SetTrue
+MPK Mini Play♦CC♦48♦0.0♦0.1♦FullAttackMode♦SetTrue
+MPK Mini Play♦CC♦48♦0.6♦0.9♦DefenseMode♦SetTrue
+MPK Mini Play♦CC♦48♦0.9♦1♦FullDefenseMode♦SetTrue
+MPK Mini Play♦CC♦48♦0.4♦0.6♦NeutralMode♦SetTrue
+
+MPK Mini Play♦Shorten♦8339632♦FootSustain♦SetTrue
+MPK Mini Play♦Shorten♦16560♦FootSustain♦SetFalse
+UM-ONE♦Note♦1♦FootPadLeft♦SetTrue
+UM-ONE♦Note♦2♦FootPadRight♦SetTrue
+
+
+
+MPK Mini Play♦Note♦48♦Demo0♦SetTrue
+MPK Mini Play♦Note♦50♦Demo1♦SetTrue
+MPK Mini Play♦Note♦52♦Demo2♦SetTrue
+MPK Mini Play♦Note♦53♦Demo3♦SetTrue
+
+// C CD D DD E F FD G GD A AD B C
+// Note C
+MPK Mini Play♦NoteVelocity♦48♦0.0♦0.00001♦LeftCNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦48♦0.00001♦0.1♦LeftCLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦48♦0.1♦0.9♦LeftCMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦48♦0.9♦1.0♦LeftCHight♦SetTrue
+
+// Note CD
+MPK Mini Play♦NoteVelocity♦49♦0.0♦0.000001♦LeftCDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦49♦0.00001♦0.1♦LeftCDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦49♦0.1♦0.9♦LeftCDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦49♦0.9♦1.0♦LeftCDHight♦SetTrue
+
+
+// Note D
+MPK Mini Play♦NoteVelocity♦50♦0.0♦0.00001♦LeftDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦50♦0.00001♦0.1♦LeftDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦50♦0.1♦0.9♦LeftDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦50♦0.9♦1.0♦LeftDHight♦SetTrue
+
+
+// Note DD
+MPK Mini Play♦NoteVelocity♦51♦0.0♦0.000001♦LeftDDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦51♦0.00001♦0.1♦LeftDDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦51♦0.1♦0.9♦LeftDDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦51♦0.9♦1.0♦LeftDDHight♦SetTrue
+
+
+// Note E
+MPK Mini Play♦NoteVelocity♦52♦0.0♦0.00001♦LeftENone♦SetTrue
+MPK Mini Play♦NoteVelocity♦52♦0.00001♦0.1♦LeftELow♦SetTrue
+MPK Mini Play♦NoteVelocity♦52♦0.1♦0.9♦LeftEMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦52♦0.9♦1.0♦LeftEHight♦SetTrue
+
+// Note F
+MPK Mini Play♦NoteVelocity♦53♦0.0♦0.00001♦LeftDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦53♦0.00001♦0.1♦LeftDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦53♦0.1♦0.9♦LeftDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦53♦0.9♦1.0♦LeftDHight♦SetTrue
+
+//FD
+MPK Mini Play♦NoteVelocity♦54♦0.0♦0.000001♦LeftFDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦54♦0.00001♦0.1♦LeftFDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦54♦0.1♦0.9♦LeftFDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦54♦0.9♦1.0♦LeftFDHight♦SetTrue
+
+//GD
+MPK Mini Play♦NoteVelocity♦56♦0.0♦0.000001♦LeftGDNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦56♦0.00001♦0.1♦LeftGDLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦56♦0.1♦0.9♦LeftGDMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦56♦0.9♦1.0♦LeftGDHight♦SetTrue
+
+//AD 
+MPK Mini Play♦NoteVelocity♦58♦0.0♦0.000001♦LeftADNone♦SetTrue
+MPK Mini Play♦NoteVelocity♦58♦0.00001♦0.1♦LeftADLow♦SetTrue
+MPK Mini Play♦NoteVelocity♦58♦0.1♦0.9♦LeftADMid♦SetTrue
+MPK Mini Play♦NoteVelocity♦58♦0.9♦1.0♦LeftADHight♦SetTrue
+
+
+
+
+
+
+
+UM-ONE♦CC♦27♦0.95♦1.0♦FootPadLeftup♦SetTrue
+UM-ONE♦CC♦27♦0♦0.05♦FootPadLeftDown♦SetTrue
+UM-ONE♦CC♦7♦0.95♦1.0♦FootPadRightUp♦SetTrue
+UM-ONE♦CC♦7♦0♦0.05♦FootPadRightDown♦SetTrue
+
+
+
+//MPK Mini Play♦Patch♦5♦0.4♦0.6♦NeutralMode♦SetTrue
+//MPK Mini Play♦Pitch♦5♦0.4♦0.6♦NeutralMode♦SetTrue
+
+
+Arduino Micro♦Note♦7♦FootPadLD♦SetTrue
+Arduino Micro♦Note♦8♦FootPadLT♦SetTrue
+Arduino Micro♦Note♦18♦FootPadRD♦SetTrue
+Arduino Micro♦Note♦19♦FootPadRT♦SetTrue
+
+
+Arduino Micro♦Note♦10♦FootPadCD♦SetTrue
+Arduino Micro♦Note♦9♦FootPadCT♦SetTrue

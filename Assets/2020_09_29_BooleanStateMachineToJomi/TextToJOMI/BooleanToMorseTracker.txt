@@ -1,0 +1,4 @@
+➤ ☗ | ↓ ↑ ♦
+Jump ♦ ... ♦ M↓ M↑ ♦☗ExitTime 1500 ☗LongTime 800  ☗TriggerOnExit ☗ExitTime 2000
+MoveLeft↓ + MoveRight↓+ MoveForward↓ ♦ .. ♦ H↓ H↑ ♦ ☗TriggerOnFound 
+MoveLeft↓ + MoveRight↓+ MoveForward↓ ♦ ... ♦ B↓ B↑ ♦ ☗TriggerOnFound

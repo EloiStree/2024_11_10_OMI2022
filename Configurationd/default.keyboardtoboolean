@@ -1,0 +1,51 @@
+
+NumPadDivide ♦ActionLeft
+NumPadMultiply ♦ActionRight
+NumPadSubstract ♦ActionUp
+NumPadAdd ♦ActionDown
+PageUp ♦PageUp
+PageDown ♦PageDown
+WinUS_OEM_7_Quote♦KeySquare
+Pause ♦ActionMiddle
+Shift ♦Shift 
+LeftControl ♦Ctrl
+Space ♦Space
+Space ♦jump
+LeftAlt ♦Alt
+Tab ♦Tab
+Home ♦Home
+Pause ♦TestMacro
+PageDown ♦ PageDown
+PageUp ♦ PageUp
+ 
+Application ♦SpecialMenu
+Backspace ♦Backspace
+
+Left ♦  ArrowLeft
+Right♦  ArrowRight
+Down ♦  ArrowDown
+Up   ♦  ArrowUp
+
+Q ♦ moveleft 
+D ♦ moveright 
+Z ♦ moveforward 
+S ♦ movebackward
+
+
+A  ♦  PowerTopLeft
+E  ♦  PowerTopRight
+R  ♦  PowerTopRightRight
+F  ♦  PowerMidRight
+C  ♦  PowerDownRight
+
+
+MouseLeft♦LeftClick
+MouseRight♦RightClick
+MouseMiddle♦MiddleClick
+
+
+H ♦  BotOne
+J ♦  BotTwo
+K ♦  BotThree
+L ♦  BotFour
+M ♦  BotFive

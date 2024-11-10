@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistreebasedonspeps.xinputdotnet",                              
+  "displayName": "XInput Dot Net",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Adaptation of XInput Dot Net of Speps for Unity Package manage.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/XInputDotNet.git",
+"footprint":"",
+"revision":"ef10076498905570bb823e84d3b8a6fb59b26d11"},     
+  "category": "Script"                   
+} 

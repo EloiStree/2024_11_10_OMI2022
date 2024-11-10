@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2101665755439342134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101665755439342120}
+  - component: {fileID: 2101665755439342135}
+  m_Layer: 0
+  m_Name: 'Event Type Splitter '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101665755439342120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665755439342134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101665756651232309}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101665755439342135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665755439342134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4b5f58120f2cf45a7e1849aac56bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allRawEventReceived:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2300041059342453555}
+        m_TargetAssemblyTypeName: WindowMidiInConverterToAbstractMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_allEventArgsReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onNoteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2300041059342453555}
+        m_TargetAssemblyTypeName: WindowMidiInConverterToAbstractMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onPatchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2300041059342453555}
+        m_TargetAssemblyTypeName: WindowMidiInConverterToAbstractMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onControllEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2300041059342453555}
+        m_TargetAssemblyTypeName: WindowMidiInConverterToAbstractMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onPitchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2300041059342453555}
+        m_TargetAssemblyTypeName: WindowMidiInConverterToAbstractMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onStartPauseStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_notHandleEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  m_historyDebug:
+    m_historySize: 10
+    m_history: []
+  m_historyLogDebug:
+    m_historySize: 10
+    m_history: []
+  m_historyNotHandleDebug:
+    m_historySize: 10
+    m_history: []
+--- !u!1 &2101665756651232307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101665756651232309}
+  - component: {fileID: 2101665756651232308}
+  m_Layer: 0
+  m_Name: 'Event Filter Relay '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101665756651232309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756651232307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2101665755439342120}
+  m_Father: {fileID: 2101665756792650334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101665756651232308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756651232307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a62f2e2e27a0c4daa17eb3060e5b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_relayedMidiEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2101665755439342135}
+        m_TargetAssemblyTypeName: MidiEventTypeSplitterMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushReceivedMidiEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_allowNoteOff: 1
+  m_allowNoteOn: 1
+  m_allowKeyAfterTouch: 1
+  m_allowControlChange: 1
+  m_allowPatchChange: 1
+  m_allowChannelAfterTouch: 1
+  m_allowPitchWheelChange: 1
+  m_allowSysex: 1
+  m_allowEox: 1
+  m_allowTimingClock: 0
+  m_allowStartSequence: 1
+  m_allowContinueSequence: 1
+  m_allowStopSequence: 1
+  m_allowAutoSensing: 1
+  m_allowRawMetaEvent: 1
+  m_allowChannelAfterTouchEvent: 1
+  m_allowControlChangeEvent: 1
+  m_allowKeySignatureEvent: 1
+  m_allowMetaEvent: 1
+  m_allowNoteEvent: 1
+  m_allowNoteOnEvent: 1
+  m_allowPatchChangeEvent: 1
+  m_allowPitchWheelChangeEvent: 1
+  m_allowSequencerSpecificEvent: 1
+  m_allowSysexEvent: 1
+  m_allowTempoEvent: 1
+  m_allowTextEvent: 1
+  m_allowTimeSignatureEvent: 1
+  m_allowTrackSequenceNumberEvent: 1
+  m_typeHistory:
+    m_historySize: 10
+    m_history: []
+--- !u!1 &2101665756792650332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101665756792650334}
+  - component: {fileID: 2101665756792650333}
+  - component: {fileID: 2101665756792650320}
+  - component: {fileID: 2101665756792650335}
+  - component: {fileID: 2300041059342453555}
+  m_Layer: 0
+  m_Name: MidiIn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101665756792650334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756792650332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 371.39496, y: 183.04532, z: -195.37827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2101665756651232309}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101665756792650333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756792650332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cc086bd506bad4faf5a6413377f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_midiNameId: UM-ONE
+  m_found: 0
+  m_foundId: 0
+  m_connected: 0
+  m_onUnityThreadEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2101665756651232308}
+        m_TargetAssemblyTypeName: MidiEventFilterMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onListenerThreadEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_historyDebug:
+    m_historySize: 10
+    m_history: []
+  m_errorHistoryDebug:
+    m_historySize: 10
+    m_history: []
+--- !u!114 &2101665756792650320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756792650332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f62fb195fc4534198beb0fff792b27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_tick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2101665756792650333}
+        m_TargetAssemblyTypeName: MidiInMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: SetConnectionOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2101665756792650335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756792650332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a618b4652d0654581853d05ca5520b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_destructionRootTarget: {fileID: 0}
+  m_destructionType: 1
+  m_beforeCallingDestroy:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2101665756792650333}
+        m_TargetAssemblyTypeName: MidiInMono, be.eloistree.midireaderwindowandroid
+        m_MethodName: SetConnectionOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_destroyCall:
+    m_PersistentCalls:
+      m_Calls: []
+  m_afterCallingDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onUnityOnDestroyCall:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2300041059342453555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101665756792650332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e593741401c37e49879a49b2bc50865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_relay:
+    m_onShortReceived:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onNoteReceived:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onPitchReceived:
+      m_PersistentCalls:
+        m_Calls: []
+    m_controlReceived:
+      m_PersistentCalls:
+        m_Calls: []
+    m_patchReceived:
+      m_PersistentCalls:
+        m_Calls: []
+  m_monoSource:
+    m_source: {fileID: 2101665756792650333}

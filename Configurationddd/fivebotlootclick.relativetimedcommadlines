@@ -1,0 +1,8 @@
+☗name Set three window to they place
+☗callid boxes:fivebotloot
+↑10 ↓250♦mouseutility:gridleftclick:Bot1center:5:5:5
+↑10 ↓250♦mouseutility:gridleftclick:Bot2center:5:5:5
+↑10 ↓250♦mouseutility:gridleftclick:Bot3center:5:5:5
+↑10 ↓250♦mouseutility:gridleftclick:Bot4center:5:5:5
+↑10 ↓250♦mouseutility:gridleftclick:Bot5center:5:5:5
+↑10 ↓100♦macro:bot:select1

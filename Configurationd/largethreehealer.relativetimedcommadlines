@@ -1,0 +1,8 @@
+☗name Set three window to they place
+☗callid boxes:largethreehealer
+↑10 ↓100♦winutility:setfocuson:hunterone 
+↑10 ↓100♦winutility:movetoscreenlocation:hunterone:LargeSmallLeft 
+↑10 ↓100♦winutility:setfocuson:huntertwo
+↑10 ↓100♦winutility:movetoscreenlocation:huntertwo:LargeSmallRight   
+↑10 ↓100♦winutility:setfocuson:healer
+↑10 ↓100♦winutility:movetoscreenlocation:healer:LargeMain 

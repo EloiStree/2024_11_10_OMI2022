@@ -1,0 +1,15 @@
+{
+    "name": "be.eloistree.mousescreennativeinformation",
+    "references": [
+        "GUID:0436359919364d645b921390407b0b8d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.SerialPortToBooleanStateMachinesEditor",          
+    "references": ["be.eloistree.SerialPortToBooleanStateMachines"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
